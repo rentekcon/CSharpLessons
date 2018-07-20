@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharpLessons1
 {
-    class Program
+    interface IPayMyBill
     {
-        static void Main(string[] args)
-        {
-        }
+        //Interface Method
+        void Pay();
     }
 }
